@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100;1,500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: #034AA6;
+color: white;
+    align-items: center;
+}
+
+main{
+    margin-top: 5%;
+}
+h1,p{
+    text-align: center;
+}
+.afrase{
+    text-align: center;
+    font-size: 15pt;
+    border:  2.5px solid black;
+    padding: 5px 10px;
+    width: 45vw;
+    height: 20vw;
+    margin: auto;
+    background-color: #F2A81D;
+    box-shadow: 2.2px 1px 4px #011229;
+    font-weight: bolder;
+    border-radius: 10px 25px ;
+}
+
+button{
+    text-align: center;
+    margin: auto;
+    background-color: #F2A81D ;
+    border: 0px solid black;
+    padding: 25px 40px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px 10px ;
+    font-size: 20pt;
+    box-shadow: 1px 5px 6px #F2A81D;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #e0a538 ;
+    box-shadow: 0px 0px 0px
+
+}
+.btt{
+
+    text-align: center;
+}
+
+a{
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.autoAjuda{
+
+}
+
+
+@media (max-width: 720px) {
+
+    .afrase{
+        text-align: center;
+        font-size: 10pt;
+        border:  2.5px solid black;
+        padding: 15px 20px;
+        width: 65vw;
+        height: 36vw;
+        margin: auto;
+        overflow: hidden;
+
+
+    }
+    h1,p{
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    main{
+        margin-top: 25%;
+    }
+
+}
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.PICO-NORTE---CLIMBING-GYM-1-hex { color: #034AA6; }
+.PICO-NORTE---CLIMBING-GYM-2-hex { color: #F2C230; }
+.PICO-NORTE---CLIMBING-GYM-3-hex { color: #F2A81D; }
+.PICO-NORTE---CLIMBING-GYM-4-hex { color: #BF610F; }
+.PICO-NORTE---CLIMBING-GYM-5-hex { color: #D95032; }
+
+
